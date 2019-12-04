@@ -78,10 +78,7 @@ h1, h2, h3, h4, h5 {
 	/* margin-left:65%; */
 	margin:0 auto;
 	position:absolute;
-	top:0; left:800px
-
-
-
+	top:50px; left:750px
 }
 
 nav a {
@@ -90,28 +87,31 @@ nav a {
 	text-decoration:none;
 	color:gray;
 	margin:20px 20px 20px 20px;
+	padding:1%;
 }
 
-.logo {
-	align-items: right;
-	margin-top:5%;
-
-}
 
 h2 {
 	font-weight: 800;
 	text-decoration: none;
 	font-size:38px;
-	margin:5% 0 0 7%;
+	margin:5% 0% 0% 16%;
 	display:inline-block;
 	color:black;
 }
 
-button {
-	margin-left:8%;
+p {
+	
+}
+
+#gStarted {
+	margin-left:16%;
+	width:100px; height:100px;
 }
 
 .globeOfScope-img {
 	position: absolute;
-	top:175px; left:700px;
+	top:125px; left:700px;
 }
+
+
