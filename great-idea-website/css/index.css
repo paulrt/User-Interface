@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	border:2px solid red;
+	/* border:2px solid red; */
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -107,11 +107,32 @@ p {
 #gStarted {
 	margin-left:16%;
 	width:100px; height:100px;
+	margin-bottom:10%;
 }
 
 .globeOfScope-img {
 	position: absolute;
 	top:125px; left:700px;
+}
+
+#features {
+	display:inline-block;
+	width:100%;
+	font-size:20px;	
+	margin:0 auto;
+	padding:2%;
+}
+
+#left {
+	display:inline-block;
+	width:49%;
+	/* margin-top:10%; */
+}
+
+#right {
+	display:inline-block;
+	width:49%;
+	/* margin-left:50%; */
 }
 
 
